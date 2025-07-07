@@ -46,3 +46,19 @@
   align-items: center;
   justify-content: space-around;
 }
+
+.info-container {
+  position: relative;
+  background-color: #2a317d;
+  color: white;
+  /* right: 20px; */
+  left: 300px;
+  bottom: 80px;
+  width: 400px;
+  height: 150px;
+}
+
+ .info-container > * {
+  padding: 40px;
+ }
+

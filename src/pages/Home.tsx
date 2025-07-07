@@ -23,31 +23,54 @@ const Home: React.FC = () => (
     
     <Navbar/>
   <Carousel autoplay autoplaySpeed={4000}>
-    <div>
+    <div className='carousel'>
         <img src={img} alt="Slide 1" style={imgStyle} />
+        <div className="info-container">
+            <h1>Employment Law</h1>
+        </div>
     </div>
-    <div>
-        <img src={img1} alt="Slide 2" style={imgStyle} />    
+    <div className='carousel'>
+        <img src={img1} alt="Slide 2" style={imgStyle} />   
+        <div className="info-container">
+        <h1>E-invoicing under GST</h1>
+        </div> 
     </div>
-    <div>
+    <div className='carousel'>
         <img src={img2} alt="Slide 3" style={imgStyle} />
+        <div className="info-container">
+            <h1>Insolvency and Bankruptcy Code</h1>
+        </div>
     </div>
-    <div>
+    <div className='carousel'>
         <img src={img3} alt="Slide 4" style={imgStyle} />
+        <div className="info-container">
+            <h1>Arbitration in India</h1>
+        </div>
     </div>
-    <div>
+    <div className='carousel'>
         <img src={img4} alt="Slide 5" style={imgStyle} />
-
+        <div className="info-container">
+            <h1>Competition law in the time of Covid-19</h1>
+        </div>
     </div>
-    <div>
+    <div className='carousel'>
+
         <img src={img5} alt="Slide 6" style={imgStyle} />
+        <div className="info-container">
+            <h1>Cybercrime: An impending threat in this Tech Savy World</h1>
+        </div>
 
     </div>
-    <div>
+    <div className='carousel'>
+
         <img src={img6} alt="Slide 7" style={imgStyle} />
+        <div className="info-container">
+            <h1>Values that shape Us</h1>
+        </div>
 
     </div>
   </Carousel>
+
   </>
 );
 
