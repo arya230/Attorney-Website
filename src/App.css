@@ -73,9 +73,73 @@
   margin-top: 100px;
   display: flex;
   padding-left: 18em;
-  height: 10vh;
-  width: 60vw;
+  height: 8vh;
+  width: 50vw;
   color: #666;
 }
+
+.second-div {
+  padding-left: 5em;
+}
+.sub-urls-section {
+  margin-top: 8em;
+  display: flex;
+}
+
+section > h2 {
+  margin-top:  10px;
+}
+
+.sub-urls-section > * {
+  width: 50vw;
+  height: auto;
+  background-color: #343a40;
+  color: whitesmoke;
+}
+
+.sub-urls-section > section {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.col-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 6em;
+  /* background-color: #343a40; */
+}
+
+.col1, .col2 {
+  width: 50%;
+}
+
+.col1 ul, .col2 ul {
+  padding: 0;
+  margin: 0;
+}
+
+.col1 li, .col2 li {
+  list-style: none;
+  padding: 20px 0;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+.col1 a, .col2 a {
+  text-decoration: none;
+  color: white;
+  /* color: #333; */
+  transition: color 0.3s;
+  font-weight: bolder;
+}
+
+.col1 a:hover, .col2 a:hover {
+  color: whitesmoke;
+}
+
+
+
 
 
