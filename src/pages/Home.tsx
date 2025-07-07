@@ -71,6 +71,14 @@ const Home: React.FC = () => (
     </div>
   </Carousel>
 
+  <div className="about-us-section">
+    <h2>Lakshmikumaran & Sridharan is a full-service law firm based in India. The firm has offices in 14 cities and has over 500 professionals specializing in areas such as corporate & commercial laws, dispute resolution, taxation and intellectual property.</h2>
+    <div className="inner-content">
+        <p>Over the last three decades, we have worked with a variety of clients – start-ups, small & medium enterprises, large Indian corporates and multinational companies.</p>
+        <p>Our professionals have experience of working in both traditional sectors such as commodities, automobile, pharmaceuticals, petrochemicals and modern sectors such as e-commerce, big data, renewables.</p>
+    </div>
+  </div>
+
   </>
 );
 

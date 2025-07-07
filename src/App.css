@@ -55,10 +55,27 @@
   left: 300px;
   bottom: 80px;
   width: 400px;
-  height: 150px;
+  height: 200px;
 }
 
  .info-container > * {
   padding: 40px;
  }
+
+ .about-us-section > h2 {
+  padding-left: 12em;
+  height: 10vh;
+  width: 60vw;
+  color: #666;
+ }
+
+ .inner-content {
+  margin-top: 100px;
+  display: flex;
+  padding-left: 18em;
+  height: 10vh;
+  width: 60vw;
+  color: #666;
+}
+
 
