@@ -10,6 +10,8 @@ import img4 from "../assets/realestate5.png"
 import img5 from "../assets/realestate6.jpg"
 import img6 from "../assets/realestate7.jpeg"
 import suburlsImg from "../assets/sub-urls-img.avif"
+import cosImg from "../assets/cosmetics.jpg";
+import ai from "../assets/ai-govrenance.jpg"
 
 
 
@@ -154,6 +156,62 @@ const Home: React.FC = () => (
     </section>
 
   </div>
+  {/* INSIGHTS Section */}
+<section className="insights-section">
+  <h2 className="insights-heading">INSIGHTS</h2>
+
+  {/* Top 2 featured insights */}
+  <div className="insights-top">
+    <div className="insight-card large">
+      <img src={cosImg} alt="Insight 1" />
+      <div className="insight-content">
+        <p className="category">LKS INSIGHTS</p>
+        <h3>Cosmetic or Medicine: Determination of classification of personal care products under the Customs Tariff</h3>
+        <p className="date">03 July 2025</p>
+      </div>
+    </div>
+
+    <div className="insight-card large">
+      <img src={ai} alt="Insight 2" />
+      <div className="insight-content">
+        <p className="category">LKS INSIGHTS</p>
+        <h3>SEBI’s Consultation Paper and the winds of AI Governance</h3>
+        <p className="date">02 July 2025</p>
+      </div>
+    </div>
+  </div>
+
+  {/* Bottom 3 text cards */}
+  <div className="insights-bottom">
+    <div className="insight-card small">
+      <p className="category">NEWS</p>
+      <p className="date">7 July 2025</p>
+      <h4>Substitution of assets attached by the Enforcement Directorate under PMLA: SC</h4>
+      <p className="excerpt">
+        In a recent case, the Hon’ble Supreme Court has passed an order...
+      </p>
+    </div>
+
+    <div className="insight-card small">
+      <p className="category">NEWS</p>
+      <p className="date">01 July 2025</p>
+      <h4>Refund of IGST on exports – Rule 96(10) stands omitted prospectively but is not applicable to pending proceedings</h4>
+      <p className="excerpt">
+        The Gujarat High Court has held that Rule 96(10) of the CGST Act...
+      </p>
+    </div>
+
+    <div className="insight-card small">
+      <p className="category">NEWS</p>
+      <p className="date">10 June 2025</p>
+      <h4>Discharge of a person in predicate offence is not a bar on investigation under PMLA</h4>
+      <p className="excerpt">
+        In this case, the Petitioner was implicated in the offence of illicit manufacturing...
+      </p>
+    </div>
+  </div>
+</section>
+
 
   </>
 );
