@@ -12,13 +12,11 @@
   display: flex;
   align-items: center;
 }
+
 .navbar-container > img{
   padding-left: 14rem;
   width: 25%;
 }
-/* .navbar-container > img {
-  width: ;
-} */
 
 .list-items {
   display: flex;
@@ -31,9 +29,6 @@
   list-style-type: none;
   display: flex;
   color: #2a317d;
-  
-  /* justify-content: space-around; */
-  /* margin-left: 10px; */
 }
 
 .navbar-list-items > * {
