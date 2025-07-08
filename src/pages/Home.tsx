@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel } from 'antd';
 import Navbar from '../components/navbar';
 import "../App.css"
+import Footer from "../components/footer"
 import img from "../assets/realestate1.jpg"
 import img1 from "../assets/realestate2.jpg"
 import img2 from "../assets/realestate3.jpg"
@@ -13,7 +14,6 @@ import suburlsImg from "../assets/sub-urls-img.avif"
 import cosImg from "../assets/cosmetics.jpg";
 import ai from "../assets/ai-govrenance.jpg"
 import carrers from "../assets/carrers.png"
-
 
 
 const imgStyle: React.CSSProperties = {
@@ -241,7 +241,7 @@ const Home: React.FC = () => (
         <img src={carrers} alt="LKS Team" />
       </div>
     </div>
-
+    <Footer/>
 
   </>
 );
