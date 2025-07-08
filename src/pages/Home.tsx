@@ -12,6 +12,7 @@ import img6 from "../assets/realestate7.jpeg"
 import suburlsImg from "../assets/sub-urls-img.avif"
 import cosImg from "../assets/cosmetics.jpg";
 import ai from "../assets/ai-govrenance.jpg"
+import carrers from "../assets/carrers.png"
 
 
 
@@ -211,6 +212,35 @@ const Home: React.FC = () => (
     </div>
   </div>
 </section>
+
+<div className="career-section">
+      <div className="career-left">
+        <div className="career-block">
+          <h2>LKS Careers</h2>
+          <p>
+            Multidisciplinary teams with background in law, business, process, project
+            management, technology, and more; built on a bedrock of Indian values and
+            diverse perspectives
+          </p>
+          <button className="border-button">JOIN THE TEAM</button>
+        </div>
+
+        <div className="career-block">
+          <h2>LKS Internships</h2>
+          <p>
+            Law students will find that internship at LKS could be one of the most
+            enriching experiences. The senior members of our team are committed to
+            mentoring and guiding you towards achieving your goal of getting ready for a
+            flying start to your career.
+          </p>
+          <button className="border-button">KNOW MORE</button>
+        </div>
+      </div>
+
+      <div className="career-right">
+        <img src={carrers} alt="LKS Team" />
+      </div>
+    </div>
 
 
   </>
