@@ -17,10 +17,42 @@ const Navbar : React.FC = () => {
             <div className="list-items">
                 <ul className="navbar-list-items">
                     <li><Link to="/People">PEOPLE</Link></li>
-                    <li><Link to="/#">PRACTICES</Link></li>
-                    <li><Link to="/#">INSIGHTS</Link></li>
-                    <li><Link to="/#">NEWSROOM</Link></li>
-                    <li><Link to="/#">ABOUT US</Link></li>
+                    <li className="dropdown">
+                    <span className="nav-link">PRACTICES</span>
+                    <ul className="dropdown-menu">
+                        <li><Link to="/arbitration">Arbitration</Link></li>
+                        <li><Link to="/bis">BIS</Link></li>
+                        <li><Link to="/banking-finance">Banking & Finance</Link></li>
+                        <li><Link to="/commercial-litigation">Commercial Litigation</Link></li>
+                        <li><Link to="/competition-antitrust">Competition and Antitrust</Link></li>
+                    </ul>
+                    </li>
+                    <li className="dropdown">
+                    <span className="nav-link">INSIGHTS</span>
+                    <ul className="dropdown-menu">
+                        <li><Link to="/arbitration">In-Focus</Link></li>
+                        <li><Link to="/bis">Articles</Link></li>
+                        <li><Link to="/banking-finance">Newsletters</Link></li>
+                        <li><Link to="/commercial-litigation">Videos</Link></li>
+                    </ul>
+                    </li>
+                    <li className="dropdown">
+                    <span className="nav-link">NEWSROOM</span>
+                    <ul className="dropdown-menu">
+                        <li><Link to="/arbitration">News & Briefings</Link></li>
+                        <li><Link to="/bis">Events</Link></li>
+                    </ul>
+                    </li>
+                    <li className="dropdown">
+                    <span className="nav-link">ABOUT US</span>
+                    <ul className="dropdown-menu">
+                        <li><Link to="/arbitration">Who We Are</Link></li>
+                        <li><Link to="/bis">Our History</Link></li>
+                        <li><Link to="/banking-finance">Our Values</Link></li>
+                        <li><Link to="/commercial-litigation">Awards</Link></li>
+                        <li><Link to="/competition-antitrust">Contact Us</Link></li>
+                    </ul>
+                    </li>
                     <li><Link to="/#">CARRERS</Link></li>
                     
                 </ul>
