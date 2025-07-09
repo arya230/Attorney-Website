@@ -42,6 +42,15 @@
   text-decoration: none !important;
 }
 
+.navbar-list-items li a,
+.navbar-list-items li a:visited,
+.navbar-list-items li a:hover,
+.navbar-list-items li a:active {
+  text-decoration: none !important;
+  color: inherit; /* optional: inherits parent color */
+}
+
+
 .vertical-line {
   font-size: 40px;
   color: #666;
@@ -53,6 +62,8 @@
   align-items: center;
   justify-content: space-around;
 }
+
+
 
 .info-container {
   position: relative;
@@ -463,6 +474,43 @@ section > h2 {
   gap: 14px;
   font-size: 16px;
   color: #bbb;
+}
+
+/* Dropdown menu styling */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Directly below the nav link */
+  left: 0;
+  background-color: #2a317d;
+  padding: 10px 0;
+  min-width: 280px;
+  z-index: 1000;
+  border-radius: 2px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 12px 20px;
+  list-style: none;
+}
+
+.dropdown-menu li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+
+.dropdown-menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 
