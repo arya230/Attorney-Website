@@ -24,7 +24,7 @@ const Navbar : React.FC = () => {
                         <li><Link to="/bis">BIS</Link></li>
                         <li><Link to="/banking-finance">Banking & Finance</Link></li>
                         <li><Link to="/commercial-litigation">Commercial Litigation</Link></li>
-                        <li><Link to="/competition-antitrust">Competition and Antitrust</Link></li>
+                        <li><Link to="./gst">Goods And Services Tax</Link></li>
                     </ul>
                     </li>
                     <li className="dropdown">
